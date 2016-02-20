@@ -1,0 +1,7 @@
+---- COM3TxFIFO Matches (6 in 1 files) ----
+bsp_com.c (BSP):static CPU_INT8U COM3TxFIFO[COM3_TX_FIFO_SIZE + FIFO_INFO_SIZE];
+bsp_com.c (BSP):    FIFOInit((FIFODataTypeDef *)COM3TxFIFO);
+bsp_com.c (BSP):    if ((COM3_TX_FIFO_SIZE - GetFIFOCount((FIFODataTypeDef *)COM3TxFIFO, COM3_TX_FIFO_SIZE)) < len)
+bsp_com.c (BSP):        FIFOIn((FIFODataTypeDef *)COM3TxFIFO, &pdata[i], COM3_TX_FIFO_SIZE);
+bsp_com.c (BSP):    while (!FIFOIsEmpty((FIFODataTypeDef *)COM3TxFIFO))
+bsp_com.c (BSP):        FIFOOut((FIFODataTypeDef *)COM3TxFIFO, &byte, COM3_TX_FIFO_SIZE);
