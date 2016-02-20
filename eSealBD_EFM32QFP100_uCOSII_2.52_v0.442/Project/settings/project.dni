@@ -1,0 +1,182 @@
+[Stack]
+FillEnabled=0
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnLogOnly=1
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[DebugChecksum]
+Checksum=-43176447
+[Exceptions]
+StopOnUncaught=_ 0
+StopOnThrow=_ 0
+[CallStack]
+ShowArgs=1
+[Disassembly]
+MixedMode=1
+[SWOTraceHWSettings]
+OverrideDefaultClocks=0
+CpuClock=72000000
+ClockAutoDetect=0
+ClockWanted=2000000
+JtagSpeed=2000000
+Prescaler=36
+TimeStampPrescIndex=0
+TimeStampPrescData=0
+PcSampCYCTAP=1
+PcSampPOSTCNT=15
+PcSampIndex=0
+DataLogMode=0
+ITMportsEnable=0
+ITMportsTermIO=0
+ITMportsLogFile=0
+ITMlogFile=$PROJ_DIR$\ITM.log
+[Interrupts]
+Enabled=1
+[MemoryMap]
+Enabled=0
+Base=0
+UseAuto=0
+TypeViolation=1
+UnspecRange=1
+ActionState=1
+[JLinkDriver]
+CStepIntDis=_ 0
+[CodeCoverage]
+Enabled=_ 0
+[struct_types]
+Fmt0=SensorTHG-latitude	4	0
+Fmt1=SensorTHG-longitude	4	0
+Fmt2=SensorTHG-temperature	4	0
+Fmt3=sCiphertextTypeDef-data	4	0
+Fmt4=sCiphertextTypeDef-id	4	0
+Fmt5=sCiphertextTypeDef-len	4	0
+Fmt6=sCiphertextTypeDef-rn	4	0
+Fmt7=sEsealBDWorkTypeDef-period	4	0
+Fmt8=sHeadTypeDef-crc	4	0
+Fmt9=sHeadTypeDef-data	4	0
+Fmt10=sHeadTypeDef-len	4	0
+Fmt11=sHeadTypeDef-type	4	0
+Fmt12=sPortListTypeDef-port	4	0
+Fmt13=sSocketHeadTypeDef-crc	4	0
+Fmt14=sSocketHeadTypeDef-data	4	0
+Fmt15=sSocketHeadTypeDef-leadcode	4	0
+Fmt16=sSocketHeadTypeDef-len	4	0
+Fmt17=sSocketHeadTypeDef-port	4	0
+[array_types]
+Fmt0=CPU_INT8U[256]	4	0
+Fmt1=unsigned int[32]	4	0
+[watch_formats]
+Fmt0={W}0:BDcnt	4	0
+Fmt1={W}0:cmd_id	4	0
+Fmt2={W}0:id	3	0
+Fmt3={W}0:rn	4	0
+Fmt4={W}1:head	4	0
+Fmt5={W}1:package	0	4
+Fmt6={W}1:pdata	4	0
+Fmt7={W}1:send_data	5	1
+Fmt8={W}1:temperature	3	0
+[Trace2]
+Enabled=0
+ShowSource=0
+[SWOTraceWindow]
+PcSampling=0
+InterruptLogs=0
+ForcedTimeStamps=0
+EventCPI=0
+EventEXC=0
+EventFOLD=0
+EventLSU=0
+EventSLEEP=0
+[PowerLog]
+Title_0=I0
+Symbol_0=0 4 0
+LogEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+LiveEnabled=0
+LiveFile=PowerLogLive.log
+[DataLog]
+LogEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+SumEnabled=0
+ShowTimeSum=1
+[EventLog]
+Title_0=Ch3
+Symbol_0=0 4 1
+Title_1=Ch2
+Symbol_1=0 4 1
+Title_2=Ch1
+Symbol_2=0 4 1
+Title_3=Ch0
+Symbol_3=0 4 1
+LogEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+SumEnabled=0
+ShowTimeSum=1
+SumSortOrder=0
+[InterruptLog]
+LogEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+SumEnabled=0
+ShowTimeSum=1
+SumSortOrder=0
+[Log file]
+LoggingEnabled=_ 1
+LogFile=_ "$PROJ_DIR$\20140526LogFile11001.log"
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[DriverProfiling]
+Enabled=0
+Mode=3
+Graph=0
+Symbiont=0
+Exclusions=
+[CallStackLog]
+Enabled=0
+[CallStackStripe]
+ShowTiming=1
+[PowerProbe]
+Frequency=10000
+Probe0=I0
+ProbeSetup0=2 1 1 2 0 0
+[Disassemble mode]
+mode=0
+[Breakpoints2]
+Count=0
+[Aliases]
+A0=_ "C:\Documents and Settings\Administrator\桌面\华师大plain\eSealBD_EFM32QFP100_uCOSII_2.52_v0.05w105\eSealBD_EFM32QFP100_uCOSII_2.52_v0.05w104\App\main.c" ""
+A1=_ "C:\Documents and Settings\Administrator\桌面\华师大plain\eSealBD_EFM32QFP100_uCOSII_2.52_v0.05w105\eSealBD_EFM32QFP100_uCOSII_2.52_v0.05w104\CPU\Core\ARM-Cortex-M3\cm3.h" ""
+A2=_ "D:\Super\Work\北斗\10华师大_20130709\eSealBD_EFM32QFP100_uCOSII_2.52_v0.05w111\BSP\bsp_inmarsat.c" "D:\Super\Work\北斗\北斗物流项目\软件\eSealBD_EFM32QFP100_uCOSII_2.52_v0.05w111x4\BSP\bsp_inmarsat.c"
+A3=_ "D:\Super\Work\北斗\10华师大_20130709\华师大plain\eSealBD_EFM32QFP100_uCOSII_2.52_v0.05w9\App\main.c" ""
+A4=_ "D:\Super\Work\北斗\10华师大_20130709\华师大plain\eSealBD_EFM32QFP100_uCOSII_2.52_v0.05w9\CPU\Core\ARM-Cortex-M3\cm3.h" ""
+A5=_ "D:\Super\Work\北斗\10华师大_20130709\华师大plain\eSealBD_EFM32QFP100_uCOSII_2.52_v0.05w9\uCOS-II\Source\os_mbox.c" ""
+A6=_ "D:\Super\Work\北斗\20130903\eSealBD_EFM32QFP100_uCOSII_2.52_v0.05w114\App\OS\os_hook.c" ""
+A7=_ "D:\Super\Work\北斗\20130903\eSealBD_EFM32QFP100_uCOSII_2.52_v0.05w114\CPU\Devices\EnergyMicro\EFM32GG\dev_sleep.c" ""
+A8=_ "D:\Super\Work\北斗\20130903\eSealBD_EFM32QFP100_uCOSII_2.52_v0.05w114\CPU\DriverLib\EnergyMicro\EFM32GG\src\emu.c" ""
+A9=_ "D:\Super\Work\北斗\20130903\eSealBD_EFM32QFP100_uCOSII_2.52_v0.05w114\uCOS-II\Source\os_task.c" ""
+A10=_ "D:\工作文档\项目\北斗项目2.0\嵌软\eSealBD_EFM32QFP100_uCOSII_2.52_v0.09-edit\App\OS\os_hook.c" ""
+A11=_ "D:\工作文档\项目\北斗项目2.0\嵌软\eSealBD_EFM32QFP100_uCOSII_2.52_v0.09-edit\CPU\Devices\EnergyMicro\EFM32GG\dev_sleep.c" ""
+A12=_ "D:\工作文档\项目\北斗项目2.0\嵌软\eSealBD_EFM32QFP100_uCOSII_2.52_v0.09-edit\CPU\DriverLib\EnergyMicro\EFM32GG\src\emu.c" ""
+A13=_ "D:\工作文档\项目\北斗项目2.0\嵌软\eSealBD_EFM32QFP100_uCOSII_2.52_v0.09-edit\uCOS-II\Source\os_core.c" ""
+A14=_ "D:\工作文档\项目\北斗项目2.0\嵌软\eSealBD_EFM32QFP100_uCOSII_2.52_v0.19p\uCOS-II\Ports\os_cpu_a.asm" ""
+A15=_ "D:\工作文档\项目\蓝牙\eSealBD_EFM32QFP100_uCOSII_2.52_v0.05w104\App\Protocol\online.c" ""
+A16=_ "D:\项目\北斗物流项目\软件\eSealBD_EFM32QFP100_uCOSII_2.52_v0.03\App\OS\os_hook.c" ""
+A17=_ "D:\项目\北斗物流项目\软件\eSealBD_EFM32QFP100_uCOSII_2.52_v0.03\App\Protocol\esealbd_updata.c" ""
+A18=_ "D:\项目\北斗物流项目\软件\eSealBD_EFM32QFP100_uCOSII_2.52_v0.03\App\main.c" ""
+A19=_ "D:\项目\北斗物流项目\软件\eSealBD_EFM32QFP100_uCOSII_2.52_v0.03\CPU\Core\ARM-Cortex-M3\cm3.h" ""
+A20=_ "D:\项目\北斗物流项目\软件\eSealBD_EFM32QFP100_uCOSII_2.52_v0.03\CPU\Devices\EnergyMicro\EFM32GG\dev_sleep.c" ""
+A21=_ "D:\项目\北斗物流项目\软件\eSealBD_EFM32QFP100_uCOSII_2.52_v0.03\CPU\DriverLib\EnergyMicro\EFM32GG\src\emu.c" ""
+A22=_ "D:\项目\北斗物流项目\软件\eSealBD_EFM32QFP100_uCOSII_2.52_v0.03\uCOS-II\Source\os_core.c" ""
+A23=_ "D:\项目\北斗物流项目\软件\eSealBD_EFM32QFP100_uCOSII_2.52_v0.03\uCOS-II\Source\os_task.c" ""
+A24=_ "E:\WORK\项目\北斗物流项目\北斗物流项目\北斗物流项目\软件\eSealBD_EFM32QFP100_uCOSII_2.52_v0.02\App\Protocol\esealbd_updata.c" "D:\项目\北斗物流项目\软件\eSealBD_EFM32QFP100_uCOSII_2.52_v0.03\App\Protocol\esealbd_updata.c"
+Count=25
+SuppressDialog=0

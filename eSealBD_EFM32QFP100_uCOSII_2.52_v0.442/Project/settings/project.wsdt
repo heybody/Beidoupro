@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Workspace>
+  <ConfigDictionary>
+    
+  <CurrentConfigs><Project>project/Debug</Project></CurrentConfigs></ConfigDictionary>
+  <Desktop>
+    <Static>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>22</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+      <Build>
+        
+        
+        
+        
+      <PreferedWindows><Position>3</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows><Window><Factory>Find-in-Files</Factory></Window><Window><Factory>Tool-Output</Factory></Window><Window><Factory>Debug-Log</Factory></Window></Windows></PreferedWindows><ColumnWidth0>20</ColumnWidth0><ColumnWidth1>599</ColumnWidth1><ColumnWidth2>161</ColumnWidth2><ColumnWidth3>199</ColumnWidth3></Build>
+    <TerminalIO/><Find-in-Files><PreferedWindows><Position>3</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows><ColumnWidth0>440</ColumnWidth0><ColumnWidth1>62</ColumnWidth1><ColumnWidth2>754</ColumnWidth2><ColumnWidth3>268</ColumnWidth3></Find-in-Files><Debug-Log><PreferedWindows><Position>3</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows><ColumnWidth0>19</ColumnWidth0><ColumnWidth1>1222</ColumnWidth1></Debug-Log><Disassembly><col-names><item>Disassembly</item><item>_I0</item></col-names><col-widths><item>500</item><item>20</item></col-widths><DisasmHistory/><ShowCodeCoverage>0</ShowCodeCoverage><ShowInstrProfiling>120</ShowInstrProfiling></Disassembly><Tool-Output><PreferedWindows><Position>3</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows><Window><Factory>Build</Factory></Window><Window><Factory>Find-in-Files</Factory></Window><Window><Factory>Debug-Log</Factory></Window></Windows></PreferedWindows></Tool-Output><Breakpoints><col-names><item>Breakpoint</item><item>_I0</item></col-names><col-widths><item>500</item><item>35</item></col-widths><PreferedWindows><Position>3</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows></Breakpoints><PROJECT_GUI_CALL_GRAPH><PreferedWindows><Position>3</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows><col-names><item>File</item><item>Function</item><item>Line</item></col-names><col-widths><item>200</item><item>700</item><item>100</item></col-widths></PROJECT_GUI_CALL_GRAPH><Select-Ambiguous-Definitions><ColumnWidth0>560</ColumnWidth0><ColumnWidth1>64</ColumnWidth1><ColumnWidth2>769</ColumnWidth2></Select-Ambiguous-Definitions><Find-All-Declarations><ColumnWidth0>448</ColumnWidth0><ColumnWidth1>64</ColumnWidth1><ColumnWidth2>769</ColumnWidth2></Find-All-Declarations><Memory><PreferedWindows><Position>4</Position><ScreenPosX>2369</ScreenPosX><ScreenPosY>247</ScreenPosY><Windows/></PreferedWindows></Memory></Static>
+    <Windows>
+      
+      
+    <Wnd0><Tabs><Tab><Identity>TabID-13081-26886</Identity><TabName>Workspace</TabName><Factory>Workspace</Factory><Session><NodeDict><ExpandedNode>project</ExpandedNode><ExpandedNode>project/App</ExpandedNode></NodeDict></Session></Tab></Tabs><SelectedTab>0</SelectedTab></Wnd0><Wnd1><Tabs><Tab><Identity>TabID-5403-512</Identity><TabName>Debug Log</TabName><Factory>Debug-Log</Factory><Session/></Tab><Tab><Identity>TabID-3312-551</Identity><TabName>Build</TabName><Factory>Build</Factory><Session/></Tab><Tab><Identity>TabID-22714-16448</Identity><TabName>Ambiguous Definitions</TabName><Factory>Select-Ambiguous-Definitions</Factory><Session/></Tab><Tab><Identity>TabID-15106-4087</Identity><TabName>Declarations</TabName><Factory>Find-All-Declarations</Factory><Session/></Tab></Tabs><SelectedTab>1</SelectedTab></Wnd1></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\CPU\Core\ARM-Cortex-M3\cm3.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>59</YPos2><SelStart2>8373</SelStart2><SelEnd2>8373</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\BSP\bsp_chip.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>0</SelStart2><SelEnd2>0</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\App\bluetooth.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>1342</SelStart2><SelEnd2>1342</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\App\bluetooth.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>89</SelStart2><SelEnd2>89</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\App\main.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>16</YPos2><SelStart2>3367</SelStart2><SelEnd2>3367</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\App\ringbuf.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>232</SelStart2><SelEnd2>232</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\App\sensor.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>0</SelStart2><SelEnd2>0</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\App\ringbuf.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>654</SelStart2><SelEnd2>654</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\BSP\bsp_bdcom.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>122</XPos2><YPos2>145</YPos2><SelStart2>6756</SelStart2><SelEnd2>6756</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\App\esealbd.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>361</YPos2><SelStart2>10694</SelStart2><SelEnd2>10694</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\App\esealbd.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>33</YPos2><SelStart2>3881</SelStart2><SelEnd2>3881</SelEnd2></Tab><ActiveTab>10</ActiveTab></Pane><ActivePane>0</ActivePane><Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\CPU\Core\ARM-Cortex-M3\cpu.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>1417</SelStart2><SelEnd2>1417</SelEnd2></Tab><ActiveTab>0</ActiveTab></Pane><Sizes><Pane><X>554989</X><Y>1000000</Y></Pane><Pane><X>445010</X><Y>1000000</Y></Pane></Sizes><SplitMode>4</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-00D763F8><key>iaridepm.enu1</key></Toolbar-00D763F8></Sizes></Row0><Row1><Sizes/></Row1></Top><Left><Row0><Sizes><Wnd0><Rect><Top>-2</Top><Left>-2</Left><Bottom>321</Bottom><Right>96</Right><x>-2</x><y>-2</y><xscreen>1507</xscreen><yscreen>620</yscreen><sizeHorzCX>1566528</sizeHorzCX><sizeHorzCY>1244980</sizeHorzCY><sizeVertCX>101871</sizeVertCX><sizeVertCY>648594</sizeVertCY></Rect></Wnd0></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd1><Rect><Top>-2</Top><Left>-2</Left><Bottom>132</Bottom><Right>964</Right><x>-2</x><y>-2</y><xscreen>966</xscreen><yscreen>134</yscreen><sizeHorzCX>1004158</sizeHorzCX><sizeHorzCY>269076</sizeHorzCY><sizeVertCX>560291</sizeVertCX><sizeVertCY>1140562</sizeVertCY></Rect></Wnd1></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Workspace>
+
+
